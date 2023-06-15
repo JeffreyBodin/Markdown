@@ -1,0 +1,237 @@
+// MASTER Filters              //
+
+// MASTER Skip
+// Do this: Skip Inbox
+
+  madorc@madorc.com OR contact@repl.it OR info@hardshiprecovery.com OR wovenlabel@yahoo.com OR lenovo@enews.lenovo.com OR support@ochsnercommunityinsights.org
+
+// MASTER Index / Do "Nothing"
+// Do this:
+  
+  lenovo@enews.lenovo.com
+
+// MASTER University Skip
+// Do this: Skip Inbox
+  
+  udallas@goudallas.org OR udsummer@udallas.edu OR admissions@wustl.edu OR admissions@vanderbilt.edu OR adminfo@rhodes.edu 
+
+// MASTER University Skip / Individual
+// Do this: Skip Inbox, Never mark it as important
+  
+  jlong1@samford.edu
+
+// MASTER University Skip / Promotions
+// Do this: Skip Inbox, Never mark it as important, Categorize as Promotions
+
+  sessions-noreply@quora.com
+
+// MASTER Promotions
+// Do this: Skip Inbox, Categorize as Promotions
+  
+  promotion@aliexpress.com OR special@aliexpress.com
+
+// MASTER Promotions / -Priority
+// Do this: Skip Inbox, Never mark it as important, Categorize as Promotions
+
+  info@hardshiprecovery.com
+
+// MASTER +Priority
+// Do this: Never send it to Spam, Mark it as important
+
+  webmaster@fastweb.com
+
+// MASTER -Priority
+// Do this: Never send it to Spam, Mark it as important
+
+  // email here
+
+// Master [IMPORTANT]
+// Do this: Skip Inbox, Apply label "[Saved]/IMPORTANT", Never send it to Spam
+
+  // email here
+
+// Master [IMPORTANT] / +Priority
+// Do this: Skip Inbox, Apply label "[Saved]/IMPORTANT", Never send it to Spam, Mark it as important
+
+  auto-reply@usps.com
+
+// Master [IMPORTANT] Apply Label / +Priority
+// Do this: Apply label "[Saved]/IMPORTANT", Never send it to Spam, Mark it as important
+
+  @srfax.com OR USPSInformedDelivery@usps.gov OR order-update@amazon.com
+
+
+
+
+
+
+// Individual Filters          // 
+// SPS                         //
+
+// SPS Apply Label
+// Do this: Apply label "[School]/St. Paul's"
+
+  @stpauls.com
+
+// SPS Apply Label / From -> To 
+// Do this: Apply label "[School]/St. Paul's"
+
+  from:(@stpauls.com) 
+  to:(@stpauls.com)
+
+// SPS Apply Label // Individual
+// Do this: Apply label "[School]/St. Paul's", Never send it to Spam
+
+  rachelp@stpauls.com OR kimgardner@stpauls.com OR comment-reply@wordpress.com
+
+// SPS Apply Label / Edline (1)
+// Do this: Apply label "[School]/St. Paul's", Never send it to Spam
+  
+  sender@edline.net
+
+// SPS Apply Label / Edline (2)
+// Do this: Apply label "[School]/St. Paul's", Never send it to Spam
+
+  @edline.net
+
+// SPS Apply Label / Brother Ray's Newsletter
+// Do this: Apply label "[School]/St. Paul's/Brother Ray's Newsletters", Never send it to Spam
+
+  broray@stpauls.com 
+  subject:newsletter
+
+// SPS Apply Label / Cross Country
+// Do this: Apply label "[School]/St. Paul's/Cross Country", Never send it to Spam
+
+  myrlew@stpauls.com OR terrylchatham@gmail.com 
+  to:(jeffreybodin713@gmail.com) 
+  (Cross Country OR Running Wolves)
+
+// SPS Apply Label / LYL
+// Do this: Apply label "[School]/St. Paul's/LYL", Never send it to Spam
+
+  jeaneens@stpauls.com
+
+// SPS Apply Label / AFJROTC Sarge Direct to Me
+// Do this: Apply label "[School]/St. Paul's/ROTC", Never send it to Spam, Mark it as important
+
+  msgteast@stpauls.com
+  to:(jeffreybodin713@gmail.com)
+
+// SPS Apply Label / Youth and Government 
+// Do this: Apply label "[School]/St. Paul's/Youth and Government"
+
+  kimgardner@stpauls.com
+
+
+
+// Individual Filters          // 
+// LSU                         //
+
+// LSU / +++Priority
+// Do this: Star it, Apply label "[School]/LSU", Never send it to Spam, Mark it as important, Categorize as Primary 
+
+  @lsu.edu
+
+#### #### #### ####
+      // LSU Apply Label
+      // Do this: Apply label "[School]/LSU"
+
+        @lsu.edu
+#### #### #### ####
+
+// LSU Apply Label / Email Fwd -> jeffreybodin713
+// Do this: Skip Inbox, Apply label "[School]/LSU/LSU Saved Emails"
+
+  jbodin8@lsu.edu
+
+
+
+
+// Individual Filters          // 
+// College Admission           //
+
+// Apply Label / ACT
+// Do this: Apply label "[Saved]/College Admission/ACT", Never send it to Spam
+
+  @act.org
+
+// Apply Label / Kimberly Simpson (1)(direct contact)
+// Do this: Apply label "[Saved]/College Admission/Kimberly Simpson", Never send it to Spam
+
+  mailer@email.naviance.com
+  to:(jeffreybodin713@gmail.com)
+
+// Apply Label / Kimberly Simpson 
+// Do this: Apply label "[Saved]/College Admission/Kimberly Simpson", Never send it to Spam
+
+  @guidedpath.net
+
+// Apply Label / Rhodes
+// Do this: Apply label "[Saved]/College Admission/Rhodes", Never send it to Spam
+
+  adminfo@rhodes.edu OR writinginstitute@rhodes.edu OR starlingm@rhodes.edu OR visit@rhodes.edu
+
+// Apply Label / TCU
+// Do this: Apply label "[Saved]/College Admission/TCU", Never send it to Spam
+
+  @tcu.edu
+
+// Apply Label / Vanderbilt
+// Do this: Apply label "[Saved]/College Admission/Vanderbilt", Never send it to Spam
+
+  @vanderbilt.edu
+
+// Apply Label / Washington University in St. Louis
+// Do this: Apply label "[Saved]/College Admission/Washington University in St. Louis", Never send it to Spam
+
+  @wustl.edu
+
+
+
+
+// Individual Filters          //
+// USPS                        //
+
+#### #### #### ####
+      // USPS / Informed Delivery
+      // Do this: Apply label "[Saved]/IMPORTANT", Never send it to Spam
+
+        USPSInformedDelivery@usps.gov
+
+      // USPS / In Transit Alerts
+      // Do this: Skip Inbox, Apply label "[Saved]/IMPORTANT", Never send it to Spam, Mark it as important
+
+        auto-reply@usps.com
+#### #### #### ####
+
+// Individual Filters          //
+// [UPDATES]                   //
+
+// Alerts - Financial
+// Do this: Skip Inbox, Apply label "[Saved]/IMPORTANT", Categorize as Updates
+
+  no.reply.alerts@chase.com OR alerts.no.reply@jpmorgan.com
+
+// [STONKS] - TD Ameritrade
+// Do this: Skip Inbox, Apply label "[UPDATES]/STONKS"
+
+  from@communications.tdameritrade.com
+
+// [STONKS] - Fidelity
+// Do this: Skip Inbox, Apply label "[UPDATES]/STONKS" 
+
+  Fidelity.Investments@mail.fidelity.com
+  list:(<1050979.xt.local>)
+
+// [STONKS] - m1 Finance 
+// Do this: Skip Inbox, Apply label "[UPDATES]/STONKS"
+
+  reply@email.m1finance.com 
+  list:(<7295435.xt.local>)
+
+
+// [Contacts] - Cece
+// Do this: Apply label "[Contacts]/CeCe", Never send it to Spam
+
+  pgbodin@gmail.com
